@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #F5DABB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main
+{
+    background-color: white;
+    width: 23%;
+    height: 85%;
+    border-radius: 20px;
+    background-color: #252734;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* justify-content: space-evenly; */
+}
+
+.top-banner
+{
+    background-color: #A780F7;
+    width: 90%;
+    height: 25%;
+    margin-top: 10%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-text{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 6%;
+    margin-left: 5%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+#fit
+{
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 4%;
+}
+
+#project
+{
+    margin-top: 16% ;
+    /* width: 100%; */
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 6%;
+    margin-bottom: 2%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#yoga
+{
+    width: 100px;
+}
+
+.text-two
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 40px;
+    width: 100%;
+}
+
+#details
+{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    width: 90%;
+    height: 60%;
+    gap: 30px;
+}
+
+.input-group
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.input
+{
+    border: none;
+    background: none;
+    border-bottom: 1px solid whitesmoke;
+    width: 100px;
+    margin-left: 50px;
+    color: whitesmoke;
+    
+}
+
+input:focus
+{
+    outline: none;
+    color: whitesmoke;
+}
+
+#cal
+{
+    padding-bottom: 15px; 
+    /* idk why but padding worked here */
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    background-color: #FFAA47;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 15px;
+}
+
+.result
+{
+    width: 100%;
+    height: 200px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: start;
+}
+
+.result>p{
+    margin-left: 12px;
+}
+
+.display
+{
+    width: 90%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 12px;
+    margin-bottom: 22px;
+    color: whitesmoke;
+
+}
+
+
+
+
+
+
